@@ -1,0 +1,62 @@
+INSERT INTO Pais
+VALUES
+(1, 'ARGENTINA'),
+(2, 'URUGUAY'),
+(3, 'INGLATERRA'),
+(4, 'LONDRES'),
+(5, 'REINO UNIDO'),
+(6, 'CARDIFF'),
+(7, 'ESTADOS UNIDOS')
+
+SELECT *
+FROM Pais
+
+/*Las vistas son tablas virtuales, creadas desde una consulta.
+Permiten aislar los datos con seguridad*/
+
+CREATE VIEW vista_pais 
+AS
+SELECT ID, PAIS
+FROM Pais
+WHERE ID > 2
+
+SELECT *
+--SELECT ID,
+--LOWER(PAIS) as Region
+FROM vista_pais
+ORDER BY Pais desc
+
+--DROP VIEW vista_pais
+--DROP TABLE Pais
+
+____________
+
+use Ejercitacion
+
+CREATE TABLE Categorias(
+ID_Categoria INT NOT NULL IDENTITY PRIMARY KEY,
+Nombre_Categoria VARCHAR(50),
+Descripcion VARCHAR(50)
+);
+
+INSERT INTO Categorias(
+Nombre_Categoria,
+Descripcion)
+VALUES
+('Quesos', 'Brie, Hebras, Para Untar'),
+('Carnes', 'Res, Pollo, Pescado')
+;
+
+SELECT *
+FROM Categorias
+
+UPDATE Categorias
+SET Nombre_Categoria = 'Quesillos'
+WHERE ID_Categoria = 1
+;
+
+--DROP TABLE Categorias
+
+ALTER TABLE Categorias
+--ADD Cantidad INT
+DROP COLUMN Cantidad
