@@ -1,0 +1,2 @@
+ALTER TABLE Clientes 
+ADD apellido VARCHAR(255)

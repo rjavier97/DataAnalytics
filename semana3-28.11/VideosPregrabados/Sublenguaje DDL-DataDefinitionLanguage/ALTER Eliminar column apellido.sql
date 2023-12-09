@@ -1,0 +1,2 @@
+ALTER TABLE Clientes
+DROP COLUMN apellido
