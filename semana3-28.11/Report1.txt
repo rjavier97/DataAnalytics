@@ -1,0 +1,15 @@
+- Copying to [dbo].[Datos_Censo$] (Error)
+	Messages
+	* Error 0xc0202009: Data Flow Task 1: SSIS Error Code DTS_E_OLEDBERROR.  An OLE DB error has occurred. Error code: 0x80004005.
+	An OLE DB record is available.  Source: "Microsoft SQL Server Native Client 11.0"  Hresult: 0x80004005  Description: "The statement has been terminated.".
+	An OLE DB record is available.  Source: "Microsoft SQL Server Native Client 11.0"  Hresult: 0x80004005  Description: "The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Datos_Cen__ID_Ci__08B54D69". The conflict occurred in database "Estados", table "dbo.Ciudades_USA", column 'ID_Ciudad'.".
+	 (SQL Server Import and Export Wizard)
+	
+	* Error 0xc0209029: Data Flow Task 1: SSIS Error Code DTS_E_INDUCEDTRANSFORMFAILUREONERROR.  The "Destination - Datos_Censo$.Inputs[Destination Input]" failed because error code 0xC020907B occurred, and the error row disposition on "Destination - Datos_Censo$.Inputs[Destination Input]" specifies failure on error. An error occurred on the specified object of the specified component.  There may be error messages posted before this with more information about the failure.
+	 (SQL Server Import and Export Wizard)
+	
+	* Error 0xc0047022: Data Flow Task 1: SSIS Error Code DTS_E_PROCESSINPUTFAILED.  The ProcessInput method on component "Destination - Datos_Censo$" (26) failed with error code 0xC0209029 while processing input "Destination Input" (39). The identified component returned an error from the ProcessInput method. The error is specific to the component, but the error is fatal and will cause the Data Flow task to stop running.  There may be error messages posted before this with more information about the failure.
+	 (SQL Server Import and Export Wizard)
+	
+
+

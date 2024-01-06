@@ -1,0 +1,4 @@
+CREATE TABLE [dbo].[Estados] (
+[Estado] VARCHAR(100) NOT NULL,
+[ID_Estado] INT NOT NULL IDENTITY PRIMARY KEY 
+);
