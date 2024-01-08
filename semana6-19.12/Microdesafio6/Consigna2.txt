@@ -1,0 +1,12 @@
+La idea principal del gráfico está clara y se entiende
+A corregir: 
+- Acotaría las proporciones del eje Y ya que el valor maximo no se alcanza nunca ni por asomo
+mientras que por debajo del primer valor más chico tenemos 4 barras y no tenemos idea cuanto
+podría llegar a valer eso
+- Al acotar las proporciones, agregaría más valores al eje Y
+- No sabemos en que monedas estan evaluados esos valores 
+- Vendría muy bien especificar si se trata de Pesos, Dolares, etc. 
+- Pondría en contexto este gráfico de Ventas de Bebidas aclarando AÑO y PAÍS
+- Innecesario tenes barras con 3 colores diferentes, sería mejor elegir un solo color y listo
+si en este caso estariamos hablando de una sola bebida 
+- No se distinguen bien las magnitudes de las ultimas 3 barras blancas 

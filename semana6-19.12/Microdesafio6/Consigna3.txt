@@ -1,0 +1,8 @@
+ La idea está clara y se entiende que es representar la cantidad y proporción
+que existen de trabajadores por sectores 
+ En cuanto a la implementación me parece que no es la correcta:
+ A corregir :
+- Un diseño en 2D podría aclarar más la visualización de los datos
+- Reorganizaría la manera de escribir las categorías, teniendo en cuenta el tamaño 
+de las proporciones, concluyo que quedaría mejor usar el formato de Agricultura
+- A Servicios, Industria y Construcción le hacen falta valores representativos

@@ -1,0 +1,13 @@
+La idea principal de este Gráfico de torta no está clara
+No se entiende si las proporciones tiene en cuenta a ambos generos o no. 
+- Los textos no tienen un buen tamaño, ya que los datos tienen mayor tamaño que el titulo de este grafico
+y se pierde un poco la idea.
+- En las proporciones no hay un orden, ya que se dividen los continentes en 
+varias proporciones y uno queda del lado derecho mientras que otros sectores del mismo continente
+quedan del lado izquierdo
+- Los datos no son claros, ya que en algunas proporciones se utilizan continentes
+y en otros paises.
+- Cada proporcion no me dice nada, ya que falta colocar valores que representen la idea
+- Varios datos están con el mismo color y no se puede distinguir
+- Hay datos solapados y quedan muy mal visualmente
+- Excesiva cantidad de datos que hacen imposible la comprensión sencilla y directa
