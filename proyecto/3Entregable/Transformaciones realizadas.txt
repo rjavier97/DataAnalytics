@@ -1,0 +1,7 @@
+Transformaciones realizadas manualmente al importar la base de datos:
+
+CAMBIOS EN TABLA: SUELDOS
+
+VALOR REEMPLAZADO) = Table.ReplaceValue(#"Tipo cambiado","No tuve","",Replacer.ReplaceValue,{"Fecha_último_ajuste"})
+
+TIPO CAMBIADO = Table.TransformColumnTypes(#"Valor reemplazado",{{"Fecha_último_ajuste", type date}})
